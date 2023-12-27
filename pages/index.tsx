@@ -1,13 +1,10 @@
-import Link from 'next/link'
-import Layout from '../components/Layout'
+import React from "react";
+import Stats from "./minutely/components/Stats";
 
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-  </Layout>
-)
+type Props = {};
 
-export default IndexPage
+const minutely = (props: Props) => {
+  return <Stats></Stats>;
+};
+
+export default minutely;

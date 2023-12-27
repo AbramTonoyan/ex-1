@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+.h1 {
+  margin-top: 75px;
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.buttons {
+  height: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.button {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border: 2.21px solid black;
+  border-radius: 17.68px;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+}
+.modalUser {
+  margin-top: 20px;
+  border: 2.21px solid black;
+  border-radius: 17.68px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.input {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  border-radius: 17.68px;
+  border: 2px solid black;
+}
+
+.excel {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.h2 {
+  font-family: "Poppins", sans-serif;
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.ul {
+  margin-top: 40px;
+  display: grid;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.div_1 {
+  margin-left: 350px;
+  margin-top: 50px;
+  display: flex;
+  gap: 102.52px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(147, 152, 154, 1);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  height: auto;
+  flex-wrap: wrap;
+}
+.div_1 > button {
+  font-family: "Poppins", sans-serif;
+  color: rgba(147, 152, 154, 1);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  background-color: white;
+  border: none;
+}
+
+.margin_right {
+  color: rgba(147, 152, 154, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  margin-right: 248.52px;
+}
+
+.row_1 {
+  display: grid;
+  grid-template-columns: 435px 100px 77px 127px 97px 75px repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  gap: 102px;
+  margin-left: 250px;
+}
+
+.row_img {
+  display: flex;
+  width: 100px;
+}
+
+.image {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin-right: 24px;
+}
+.img_name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.name {
+  font-family: "Poppins", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.surname {
+  font-family: "Poppins", sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(100, 116, 139, 1);
+}
+
+.volume {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours {
+  display: flex;
+  font-family: "Poppins", sans-serif;
+  color: rgba(16, 195, 82, 1);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+}
+
+.floor_priec {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 34px;
+  letter-spacing: 0px;
+  align-items: center;
+  text-align: left;
+}
+
+.owners {
+  font-family: "Poppins", sans-serif;
+  color: rgba(1, 1, 1, 1);
+  font-size: 24px;
+  font-weight: 580;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+
+.items {
+  color: rgba(1, 1, 1, 1);
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 31px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
